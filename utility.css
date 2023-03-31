@@ -1,0 +1,41 @@
+:root {
+  --txt-clr: hsl(230, 9%, 13%);
+  --txt-light-color: hsl(230, 2%, 53%);
+  --clr-orange: hsl(26, 100%, 55%);
+  --clr-ligth-orange: hsl(26, 100%, 55%);
+  --clr-gray: hsl(230, 60%, 98%);
+}
+.flex-imp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+.grid-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+/* backgrond */
+.bg-orange {
+  background-color: var(--clr-orange);
+  color: white;
+}
+
+.txt-orange {
+  color: var(--clr-orange);
+}
+.txt-gray {
+  color: var(--clr-gray);
+}

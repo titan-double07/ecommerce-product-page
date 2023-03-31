@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL */
+@layer base{
+    body{
+        font-family: 'Kumbh Sans', sans-serif;
+        @apply w-full h-screen
+    }
+
+    /* .nav-links li{
+        
+    } */
+.nav-links li:hover{
+   
+@apply underline  decoration-4 decoration-orange-200 font-bold  ;
+text-underline-offset: 30px;
+}
+.ham-menu li:hover{
+@apply underline decoration-4 decoration-orange-200 font-bold ;
+text-underline-offset: 10px;
+}
+/* .nav-links li .active{
+@apply underline decoration-4 decoration-orange-200 font-bold  ;
+text-underline-offset: 30px;
+} */
+.ham-menu li .active{
+    @apply underline decoration-4 decoration-orange-200 font-bold;
+text-underline-offset: 10px;
+
+}
+/* .ham-menu{
+
+} */
+}
+
